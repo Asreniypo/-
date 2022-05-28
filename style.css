@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0px;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 400;
+}
+.container {
+    max-width: 1886px;
+    margin: 0 avto;
+}
+:root {
+    --accent-color: #323C8D;
+    --white-color: #FFF;
+    --dark-color: #000;
+}
+.text-h2 {
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.text-h3 {
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+.text-h4 {
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+/* 
+font-family: 'Nova Square', cursive;
+}*/
+.header {
+    min-height: 740px;
+    background-image: url(../jpg/1249.jpg);
+    background-repeat: no-repeat;
+    block-size: cover;
+}
+.h1 {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+    text-align: center;
+    min-width: 734px;
+    margin: 0 auto;
+    color: var(--dark-color)
+
+}
+.h4 {
+    font-weight: 400;
+    min-width: 734px;
+    font-size: 48px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--dark-color)
+}
+.header_title {
+    padding-top: 10px;
+    display: fixed;
+    justify-content: center;
+}
